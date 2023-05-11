@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF09596529EDB4450058A265 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09596429EDB4450058A265 /* CustomButton.swift */; };
+		FF0E4FF529B79E3D00F80D44 /* SubscriptionServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E4FF429B79E3D00F80D44 /* SubscriptionServicesViewModel.swift */; };
+		FF2825DF29BCBC7E0039FAEA /* SubscriptionListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2825DE29BCBC7E0039FAEA /* SubscriptionListCellView.swift */; };
+		FF2825ED29BCC8B50039FAEA /* DealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2825EC29BCC8B50039FAEA /* DealView.swift */; };
+		FF2825F029BCC8F40039FAEA /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2825EF29BCC8F40039FAEA /* UserProfileView.swift */; };
+		FF6896D029FEB1C000DB6C60 /*  TypeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6896CF29FEB1C000DB6C60 /*  TypeFilterView.swift */; };
+		FF6896D229FEB22800DB6C60 /* NewBillTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6896D129FEB22800DB6C60 /* NewBillTypeView.swift */; };
+		FF822AB72A0414520034FD21 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF822AB62A0414520034FD21 /* AccountsView.swift */; };
+		FF822AB92A041B790034FD21 /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF822AB82A041B790034FD21 /* AccountsViewModel.swift */; };
+		FF822ABB2A04346C0034FD21 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF822ABA2A04346C0034FD21 /* PaymentViewModel.swift */; };
+		FF84DD6D29F40D6100E43895 /* Subscriptions.json in Resources */ = {isa = PBXBuildFile; fileRef = FF84DD6A29F3E28F00E43895 /* Subscriptions.json */; };
+		FF86BFE629F514AF00D1AE3A /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86BFE529F514AF00D1AE3A /* CustomKeyboard.swift */; };
+		FF86BFE829F5885A00D1AE3A /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86BFE729F5885A00D1AE3A /* CategoryPicker.swift */; };
+		FF86BFEA29F5949E00D1AE3A /* BillPlanPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86BFE929F5949E00D1AE3A /* BillPlanPicker.swift */; };
+		FF86BFEC29F5972100D1AE3A /* TransactionDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86BFEB29F5972100D1AE3A /* TransactionDatePicker.swift */; };
+		FF86BFEE29F59CFE00D1AE3A /* RenewalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86BFED29F59CFE00D1AE3A /* RenewalPicker.swift */; };
 		FF8C663B29A52018007BB908 /* OnePremiumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C663A29A52018007BB908 /* OnePremiumApp.swift */; };
-		FF8C663D29A52018007BB908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C663C29A52018007BB908 /* ContentView.swift */; };
+		FF8C663D29A52018007BB908 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C663C29A52018007BB908 /* RootView.swift */; };
 		FF8C663F29A5201C007BB908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C663E29A5201C007BB908 /* Assets.xcassets */; };
 		FF8C664229A5201C007BB908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C664129A5201C007BB908 /* Preview Assets.xcassets */; };
 		FF8C664429A5201C007BB908 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C664329A5201C007BB908 /* Persistence.swift */; };
@@ -16,6 +32,21 @@
 		FF8C665229A5201D007BB908 /* OnePremiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C665129A5201D007BB908 /* OnePremiumTests.swift */; };
 		FF8C665C29A5201D007BB908 /* OnePremiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C665B29A5201D007BB908 /* OnePremiumUITests.swift */; };
 		FF8C665E29A5201D007BB908 /* OnePremiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C665D29A5201D007BB908 /* OnePremiumUITestsLaunchTests.swift */; };
+		FF8C666C29A52BDC007BB908 /* SubscriptionServicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C666B29A52BDC007BB908 /* SubscriptionServicesList.swift */; };
+		FF8C667229A66C9A007BB908 /* NewBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C667129A66C9A007BB908 /* NewBillView.swift */; };
+		FF8C667629A7D2D4007BB908 /* NewSubscriptionsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C667529A7D2D4007BB908 /* NewSubscriptionsRowView.swift */; };
+		FF8C667829A93AA2007BB908 /* BillEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C667729A93AA2007BB908 /* BillEntryView.swift */; };
+		FF94A7B92A02ECB6003EA551 /* SwipeActions in Frameworks */ = {isa = PBXBuildFile; productRef = FF94A7B82A02ECB6003EA551 /* SwipeActions */; };
+		FF9522DF29E73B380033C79F /* ScrollKit in Frameworks */ = {isa = PBXBuildFile; productRef = FF9522DE29E73B380033C79F /* ScrollKit */; };
+		FF972BF32A07A0E600729FB4 /* MonthlySpendingChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF972BF22A07A0E600729FB4 /* MonthlySpendingChartView.swift */; };
+		FF972BF62A07CD3C00729FB4 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FF972BF52A07CD3C00729FB4 /* SwiftUICharts */; };
+		FF972BF82A0D70F100729FB4 /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF972BF72A0D70F100729FB4 /* CustomCalendar.swift */; };
+		FF972BFA2A0D75E100729FB4 /* CustomBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF972BF92A0D75E100729FB4 /* CustomBackgroundModifier.swift */; };
+		FF9962E32A010A780017F45D /* BillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9962E22A010A780017F45D /* BillViewModel.swift */; };
+		FF9E46C029C77C3B00FB5C3D /* SubscriptionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E46BF29C77C3B00FB5C3D /* SubscriptionDetailView.swift */; };
+		FFA7ABFC29C38C23004AE382 /* CustomGroupboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7ABFB29C38C23004AE382 /* CustomGroupboxStyle.swift */; };
+		FFB5374C29DCA1810022BD16 /* CategorySpending.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB5374B29DCA1810022BD16 /* CategorySpending.swift */; };
+		FFB5374E29DCA9650022BD16 /* AnalyticsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB5374D29DCA9650022BD16 /* AnalyticsSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +67,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF09596429EDB4450058A265 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FF0E4FF329B6577300F80D44 /* OnePremium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnePremium.entitlements; sourceTree = "<group>"; };
+		FF0E4FF429B79E3D00F80D44 /* SubscriptionServicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionServicesViewModel.swift; sourceTree = "<group>"; };
+		FF2825DE29BCBC7E0039FAEA /* SubscriptionListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListCellView.swift; sourceTree = "<group>"; };
+		FF2825EC29BCC8B50039FAEA /* DealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealView.swift; sourceTree = "<group>"; };
+		FF2825EF29BCC8F40039FAEA /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		FF6896CF29FEB1C000DB6C60 /*  TypeFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TypeFilterView.swift"; sourceTree = "<group>"; };
+		FF6896D129FEB22800DB6C60 /* NewBillTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillTypeView.swift; sourceTree = "<group>"; };
+		FF822AB62A0414520034FD21 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		FF822AB82A041B790034FD21 /* AccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewModel.swift; sourceTree = "<group>"; };
+		FF822ABA2A04346C0034FD21 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		FF84DD6A29F3E28F00E43895 /* Subscriptions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Subscriptions.json; sourceTree = "<group>"; };
+		FF86BFE529F514AF00D1AE3A /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		FF86BFE729F5885A00D1AE3A /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPicker.swift; sourceTree = "<group>"; };
+		FF86BFE929F5949E00D1AE3A /* BillPlanPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPlanPicker.swift; sourceTree = "<group>"; };
+		FF86BFEB29F5972100D1AE3A /* TransactionDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDatePicker.swift; sourceTree = "<group>"; };
+		FF86BFED29F59CFE00D1AE3A /* RenewalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewalPicker.swift; sourceTree = "<group>"; };
 		FF8C663729A52018007BB908 /* OnePremium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePremium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C663A29A52018007BB908 /* OnePremiumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumApp.swift; sourceTree = "<group>"; };
-		FF8C663C29A52018007BB908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8C663C29A52018007BB908 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FF8C663E29A5201C007BB908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8C664129A5201C007BB908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF8C664329A5201C007BB908 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +97,18 @@
 		FF8C665729A5201D007BB908 /* OnePremiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePremiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C665B29A5201D007BB908 /* OnePremiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumUITests.swift; sourceTree = "<group>"; };
 		FF8C665D29A5201D007BB908 /* OnePremiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8C666B29A52BDC007BB908 /* SubscriptionServicesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionServicesList.swift; sourceTree = "<group>"; };
+		FF8C667129A66C9A007BB908 /* NewBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillView.swift; sourceTree = "<group>"; };
+		FF8C667529A7D2D4007BB908 /* NewSubscriptionsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubscriptionsRowView.swift; sourceTree = "<group>"; };
+		FF8C667729A93AA2007BB908 /* BillEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillEntryView.swift; sourceTree = "<group>"; };
+		FF972BF22A07A0E600729FB4 /* MonthlySpendingChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySpendingChartView.swift; sourceTree = "<group>"; };
+		FF972BF72A0D70F100729FB4 /* CustomCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendar.swift; sourceTree = "<group>"; };
+		FF972BF92A0D75E100729FB4 /* CustomBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundModifier.swift; sourceTree = "<group>"; };
+		FF9962E22A010A780017F45D /* BillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
+		FF9E46BF29C77C3B00FB5C3D /* SubscriptionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailView.swift; sourceTree = "<group>"; };
+		FFA7ABFB29C38C23004AE382 /* CustomGroupboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGroupboxStyle.swift; sourceTree = "<group>"; };
+		FFB5374B29DCA1810022BD16 /* CategorySpending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySpending.swift; sourceTree = "<group>"; };
+		FFB5374D29DCA9650022BD16 /* AnalyticsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF972BF62A07CD3C00729FB4 /* SwiftUICharts in Frameworks */,
+				FF9522DF29E73B380033C79F /* ScrollKit in Frameworks */,
+				FF94A7B92A02ECB6003EA551 /* SwipeActions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +139,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2825DC29BCB7E20039FAEA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C663C29A52018007BB908 /* RootView.swift */,
+				FF972BF22A07A0E600729FB4 /* MonthlySpendingChartView.swift */,
+				FF09596429EDB4450058A265 /* CustomButton.swift */,
+				FFB5374D29DCA9650022BD16 /* AnalyticsSectionView.swift */,
+				FF2825DE29BCBC7E0039FAEA /* SubscriptionListCellView.swift */,
+				FF9E46BF29C77C3B00FB5C3D /* SubscriptionDetailView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FF2825DD29BCB7F10039FAEA /* BillView */ = {
+			isa = PBXGroup;
+			children = (
+				FF6896CE29FEB16800DB6C60 /* BillListing */,
+				FF86BFE729F5885A00D1AE3A /* CategoryPicker.swift */,
+				FF86BFED29F59CFE00D1AE3A /* RenewalPicker.swift */,
+				FF86BFEB29F5972100D1AE3A /* TransactionDatePicker.swift */,
+				FF86BFE529F514AF00D1AE3A /* CustomKeyboard.swift */,
+				FF8C667529A7D2D4007BB908 /* NewSubscriptionsRowView.swift */,
+			);
+			path = BillView;
+			sourceTree = "<group>";
+		};
+		FF2825E029BCC1610039FAEA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF2825EE29BCC8CE0039FAEA /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FF2825EF29BCC8F40039FAEA /* UserProfileView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FF6896CE29FEB16800DB6C60 /* BillListing */ = {
+			isa = PBXGroup;
+			children = (
+				FF6896CF29FEB1C000DB6C60 /*  TypeFilterView.swift */,
+				FF6896D129FEB22800DB6C60 /* NewBillTypeView.swift */,
+				FF8C667729A93AA2007BB908 /* BillEntryView.swift */,
+				FF86BFE929F5949E00D1AE3A /* BillPlanPicker.swift */,
+				FF8C667129A66C9A007BB908 /* NewBillView.swift */,
+			);
+			path = BillListing;
+			sourceTree = "<group>";
+		};
+		FF822AB52A04142C0034FD21 /* Acoounts */ = {
+			isa = PBXGroup;
+			children = (
+				FF822AB62A0414520034FD21 /* AccountsView.swift */,
+			);
+			path = Acoounts;
+			sourceTree = "<group>";
+		};
 		FF8C662E29A52018007BB908 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +223,13 @@
 		FF8C663929A52018007BB908 /* OnePremium */ = {
 			isa = PBXGroup;
 			children = (
+				FF84DD6A29F3E28F00E43895 /* Subscriptions.json */,
+				FF0E4FF329B6577300F80D44 /* OnePremium.entitlements */,
+				FF8C667929AB8140007BB908 /* Helper */,
+				FF8C667029A66C50007BB908 /* View */,
+				FF8C666F29A66C35007BB908 /* ViewModel */,
+				FF8C666A29A52BAC007BB908 /* Model */,
 				FF8C663A29A52018007BB908 /* OnePremiumApp.swift */,
-				FF8C663C29A52018007BB908 /* ContentView.swift */,
 				FF8C663E29A5201C007BB908 /* Assets.xcassets */,
 				FF8C664329A5201C007BB908 /* Persistence.swift */,
 				FF8C664829A5201C007BB908 /* Info.plist */,
@@ -135,6 +264,49 @@
 			path = OnePremiumUITests;
 			sourceTree = "<group>";
 		};
+		FF8C666A29A52BAC007BB908 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C666B29A52BDC007BB908 /* SubscriptionServicesList.swift */,
+				FFB5374B29DCA1810022BD16 /* CategorySpending.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF8C666F29A66C35007BB908 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF0E4FF429B79E3D00F80D44 /* SubscriptionServicesViewModel.swift */,
+				FF9962E22A010A780017F45D /* BillViewModel.swift */,
+				FF822AB82A041B790034FD21 /* AccountsViewModel.swift */,
+				FF822ABA2A04346C0034FD21 /* PaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF8C667029A66C50007BB908 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF822AB52A04142C0034FD21 /* Acoounts */,
+				FF2825EE29BCC8CE0039FAEA /* User */,
+				FF2825E029BCC1610039FAEA /* Core */,
+				FF2825DD29BCB7F10039FAEA /* BillView */,
+				FF2825DC29BCB7E20039FAEA /* Root */,
+				FF2825EC29BCC8B50039FAEA /* DealView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF8C667929AB8140007BB908 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFA7ABFB29C38C23004AE382 /* CustomGroupboxStyle.swift */,
+				FF972BF72A0D70F100729FB4 /* CustomCalendar.swift */,
+				FF972BF92A0D75E100729FB4 /* CustomBackgroundModifier.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +323,11 @@
 			dependencies = (
 			);
 			name = OnePremium;
+			packageProductDependencies = (
+				FF9522DE29E73B380033C79F /* ScrollKit */,
+				FF94A7B82A02ECB6003EA551 /* SwipeActions */,
+				FF972BF52A07CD3C00729FB4 /* SwiftUICharts */,
+			);
 			productName = OnePremium;
 			productReference = FF8C663729A52018007BB908 /* OnePremium.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +375,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -223,6 +403,11 @@
 				Base,
 			);
 			mainGroup = FF8C662E29A52018007BB908;
+			packageReferences = (
+				FF9522DD29E73B380033C79F /* XCRemoteSwiftPackageReference "ScrollKit" */,
+				FF94A7B72A02ECB6003EA551 /* XCRemoteSwiftPackageReference "SwipeActions" */,
+				FF972BF42A07CD3C00729FB4 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = FF8C663829A52018007BB908 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF84DD6D29F40D6100E43895 /* Subscriptions.json in Resources */,
 				FF8C664229A5201C007BB908 /* Preview Assets.xcassets in Resources */,
 				FF8C663F29A5201C007BB908 /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +452,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF8C664729A5201C007BB908 /* OnePremium.xcdatamodeld in Sources */,
+				FF6896D229FEB22800DB6C60 /* NewBillTypeView.swift in Sources */,
+				FF6896D029FEB1C000DB6C60 /*  TypeFilterView.swift in Sources */,
 				FF8C664429A5201C007BB908 /* Persistence.swift in Sources */,
-				FF8C663D29A52018007BB908 /* ContentView.swift in Sources */,
+				FF86BFEE29F59CFE00D1AE3A /* RenewalPicker.swift in Sources */,
+				FFA7ABFC29C38C23004AE382 /* CustomGroupboxStyle.swift in Sources */,
+				FF0E4FF529B79E3D00F80D44 /* SubscriptionServicesViewModel.swift in Sources */,
+				FF86BFE829F5885A00D1AE3A /* CategoryPicker.swift in Sources */,
+				FF8C663D29A52018007BB908 /* RootView.swift in Sources */,
+				FF9962E32A010A780017F45D /* BillViewModel.swift in Sources */,
+				FF822AB72A0414520034FD21 /* AccountsView.swift in Sources */,
 				FF8C663B29A52018007BB908 /* OnePremiumApp.swift in Sources */,
+				FF86BFEA29F5949E00D1AE3A /* BillPlanPicker.swift in Sources */,
+				FFB5374E29DCA9650022BD16 /* AnalyticsSectionView.swift in Sources */,
+				FF972BF82A0D70F100729FB4 /* CustomCalendar.swift in Sources */,
+				FF2825DF29BCBC7E0039FAEA /* SubscriptionListCellView.swift in Sources */,
+				FF09596529EDB4450058A265 /* CustomButton.swift in Sources */,
+				FF822AB92A041B790034FD21 /* AccountsViewModel.swift in Sources */,
+				FF86BFEC29F5972100D1AE3A /* TransactionDatePicker.swift in Sources */,
+				FF86BFE629F514AF00D1AE3A /* CustomKeyboard.swift in Sources */,
+				FF822ABB2A04346C0034FD21 /* PaymentViewModel.swift in Sources */,
+				FF9E46C029C77C3B00FB5C3D /* SubscriptionDetailView.swift in Sources */,
+				FF8C667629A7D2D4007BB908 /* NewSubscriptionsRowView.swift in Sources */,
+				FF8C666C29A52BDC007BB908 /* SubscriptionServicesList.swift in Sources */,
+				FF972BF32A07A0E600729FB4 /* MonthlySpendingChartView.swift in Sources */,
+				FFB5374C29DCA1810022BD16 /* CategorySpending.swift in Sources */,
+				FF2825ED29BCC8B50039FAEA /* DealView.swift in Sources */,
+				FF2825F029BCC8F40039FAEA /* UserProfileView.swift in Sources */,
+				FF8C667229A66C9A007BB908 /* NewBillView.swift in Sources */,
+				FF8C667829A93AA2007BB908 /* BillEntryView.swift in Sources */,
+				FF972BFA2A0D75E100729FB4 /* CustomBackgroundModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +637,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnePremium/OnePremium.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnePremium/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Z7S7M5YQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnePremium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,12 +668,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnePremium/OnePremium.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnePremium/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Z7S7M5YQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnePremium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -593,6 +810,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF94A7B72A02ECB6003EA551 /* XCRemoteSwiftPackageReference "SwipeActions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/SwipeActions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FF9522DD29E73B380033C79F /* XCRemoteSwiftPackageReference "ScrollKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/ScrollKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FF972BF42A07CD3C00729FB4 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF94A7B82A02ECB6003EA551 /* SwipeActions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF94A7B72A02ECB6003EA551 /* XCRemoteSwiftPackageReference "SwipeActions" */;
+			productName = SwipeActions;
+		};
+		FF9522DE29E73B380033C79F /* ScrollKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF9522DD29E73B380033C79F /* XCRemoteSwiftPackageReference "ScrollKit" */;
+			productName = ScrollKit;
+		};
+		FF972BF52A07CD3C00729FB4 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF972BF42A07CD3C00729FB4 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FF8C664529A5201C007BB908 /* OnePremium.xcdatamodeld */ = {

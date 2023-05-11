@@ -1,0 +1,202 @@
+
+[
+    {
+        "id": "1",
+        "name": "Netflix",
+        "logoName": "Netflix Logo",
+        "descriptionText": "Streaming video service",
+        "subscriptionCategory": "Entertainment",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "2",
+        "name": "Amazon Prime Video",
+        "logoName": "Amazon Prime Video Logo",
+        "descriptionText": "Streaming video service",
+        "subscriptionCategory": "Entertainment",
+        "subscriptionType": "yearly"
+    },
+    {
+        "id": "3",
+        "name": "Hulu",
+        "logoName": "Hulu Logo",
+        "descriptionText": "Streaming video service",
+        "subscriptionCategory": "Entertainment",
+        "subscriptionType": "monthly"
+    },
+    
+    {
+        "id": "4",
+        "name": "Disney+",
+        "logoName": "Disney+ Logo",
+        "descriptionText": "Streaming video service",
+        "subscriptionCategory": "Entertainment",
+        "subscriptionType": "yearly"
+    },
+    {
+        "id": "5",
+        "name": "Apple Music",
+        "logoName": "Apple Music Logo",
+        "descriptionText": "Stream 90 million songs ad-free",
+        "subscriptionCategory": "Music",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "6",
+        "name": "Spotify",
+        "logoName": "Spotify Logo",
+        "descriptionText": "Get Unlimited Skips and Ad-Free Music",
+        "subscriptionCategory": "Music",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "7",
+        "name": "Tidal",
+        "logoName": "Tidal Logo",
+        "descriptionText": "TIDAL HiFi, and TIDAL HiFi Plus",
+        "subscriptionCategory": "Music",
+        "subscriptionType": "monthly"
+        
+    },
+    {
+        "id": "8",
+        "name": "Pandora",
+        "logoName": "Pandora Logo",
+        "descriptionText": "Streaming music service",
+        "subscriptionCategory": "Music",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "9",
+        "name": "YouTube Premium",
+        "logoName": "YouTube Logo",
+        "descriptionText": "Streaming music service",
+        "subscriptionCategory": "Entertainment",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "10",
+        "name": "Dropbox",
+        "logoName": "Dropbox Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "11",
+        "name": "Google Drive",
+        "logoName": "Google Drive Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "12",
+        "name": "iCloud ",
+        "logoName": "iCloud Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "13",
+        "name": "Microsoft OneDrive ",
+        "logoName": "Microsoft OneDrive Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "14",
+        "name": "Adobe Creative Cloud  ",
+        "logoName": "Adobe Creative Cloud Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "15",
+        "name": "Microsoft Office 365  ",
+        "logoName": "Microsoft Office 365 Logo",
+        "descriptionText": "cloud storage",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "16",
+        "name": "LinkedIn Premium",
+        "logoName": "LinkedIn Premium Logo",
+        "descriptionText": "professional networking and job search",
+        "subscriptionCategory": "Business",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "17",
+        "name": "Skillshare",
+        "logoName": "Skillshare Logo",
+        "descriptionText": "online learning platform",
+        "subscriptionCategory": "education",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "18",
+        "name": "MasterClass",
+        "logoName": "MasterClass Logo",
+        "descriptionText": "online learning platform",
+        "subscriptionCategory": "education",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "19",
+        "name": "Coursera",
+        "logoName": "Coursera Logo",
+        "descriptionText": "online learning platform",
+        "subscriptionCategory": "education",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "20",
+        "name": "Rosetta Stone",
+        "logoName": "Rosetta Stone Logo",
+        "descriptionText": "online learning platform",
+        "subscriptionCategory": "education",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "21",
+        "name": "Headspace",
+        "logoName": "Headspace Logo",
+        "descriptionText": "guided meditation and mindfulness",
+        "subscriptionCategory": "HealthAndFitness",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "22",
+        "name": "Calm",
+        "logoName": "Calm Logo",
+        "descriptionText": "guided meditation and sleep aid",
+        "subscriptionCategory": "HealthAndFitness",
+        "subscriptionType": "monthly"
+        
+    },
+    {
+        "id": "23",
+        "name": "Duolingo Plus ",
+        "logoName": "Duolingo Logo",
+        "descriptionText": "ad-free language learning",
+        "subscriptionCategory": "education",
+        "subscriptionType": "monthly"
+    },
+    {
+        "id": "24",
+        "name": "Grammarly",
+        "logoName": "Grammarly Logo",
+        "descriptionText": "writing assistance and plagiarism checker",
+        "subscriptionCategory": "productivity",
+        "subscriptionType": "monthly"
+    }
+]
+               
+               
+               
+
