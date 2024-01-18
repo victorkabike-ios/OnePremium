@@ -84,7 +84,7 @@
 		FF86BFE929F5949E00D1AE3A /* BillPlanPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPlanPicker.swift; sourceTree = "<group>"; };
 		FF86BFEB29F5972100D1AE3A /* TransactionDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDatePicker.swift; sourceTree = "<group>"; };
 		FF86BFED29F59CFE00D1AE3A /* RenewalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewalPicker.swift; sourceTree = "<group>"; };
-		FF8C663729A52018007BB908 /* OnePremium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePremium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C663729A52018007BB908 /* SpentSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpentSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C663A29A52018007BB908 /* OnePremiumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumApp.swift; sourceTree = "<group>"; };
 		FF8C663C29A52018007BB908 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FF8C663E29A5201C007BB908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,9 +92,9 @@
 		FF8C664329A5201C007BB908 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FF8C664629A5201C007BB908 /* OnePremium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnePremium.xcdatamodel; sourceTree = "<group>"; };
 		FF8C664829A5201C007BB908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF8C664D29A5201D007BB908 /* OnePremiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePremiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C664D29A5201D007BB908 /* SpentSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpentSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C665129A5201D007BB908 /* OnePremiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumTests.swift; sourceTree = "<group>"; };
-		FF8C665729A5201D007BB908 /* OnePremiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePremiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C665729A5201D007BB908 /* SpentSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpentSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C665B29A5201D007BB908 /* OnePremiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumUITests.swift; sourceTree = "<group>"; };
 		FF8C665D29A5201D007BB908 /* OnePremiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePremiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF8C666B29A52BDC007BB908 /* SubscriptionServicesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionServicesList.swift; sourceTree = "<group>"; };
@@ -213,9 +213,9 @@
 		FF8C663829A52018007BB908 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF8C663729A52018007BB908 /* OnePremium.app */,
-				FF8C664D29A5201D007BB908 /* OnePremiumTests.xctest */,
-				FF8C665729A5201D007BB908 /* OnePremiumUITests.xctest */,
+				FF8C663729A52018007BB908 /* SpentSmart.app */,
+				FF8C664D29A5201D007BB908 /* SpentSmartTests.xctest */,
+				FF8C665729A5201D007BB908 /* SpentSmartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF8C663629A52018007BB908 /* OnePremium */ = {
+		FF8C663629A52018007BB908 /* SpentSmart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8C666129A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremium" */;
+			buildConfigurationList = FF8C666129A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmart" */;
 			buildPhases = (
 				FF8C663329A52018007BB908 /* Sources */,
 				FF8C663429A52018007BB908 /* Frameworks */,
@@ -322,19 +322,19 @@
 			);
 			dependencies = (
 			);
-			name = OnePremium;
+			name = SpentSmart;
 			packageProductDependencies = (
 				FF9522DE29E73B380033C79F /* ScrollKit */,
 				FF94A7B82A02ECB6003EA551 /* SwipeActions */,
 				FF972BF52A07CD3C00729FB4 /* SwiftUICharts */,
 			);
 			productName = OnePremium;
-			productReference = FF8C663729A52018007BB908 /* OnePremium.app */;
+			productReference = FF8C663729A52018007BB908 /* SpentSmart.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF8C664C29A5201D007BB908 /* OnePremiumTests */ = {
+		FF8C664C29A5201D007BB908 /* SpentSmartTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8C666429A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremiumTests" */;
+			buildConfigurationList = FF8C666429A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmartTests" */;
 			buildPhases = (
 				FF8C664929A5201D007BB908 /* Sources */,
 				FF8C664A29A5201D007BB908 /* Frameworks */,
@@ -345,14 +345,14 @@
 			dependencies = (
 				FF8C664F29A5201D007BB908 /* PBXTargetDependency */,
 			);
-			name = OnePremiumTests;
+			name = SpentSmartTests;
 			productName = OnePremiumTests;
-			productReference = FF8C664D29A5201D007BB908 /* OnePremiumTests.xctest */;
+			productReference = FF8C664D29A5201D007BB908 /* SpentSmartTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF8C665629A5201D007BB908 /* OnePremiumUITests */ = {
+		FF8C665629A5201D007BB908 /* SpentSmartUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8C666729A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremiumUITests" */;
+			buildConfigurationList = FF8C666729A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmartUITests" */;
 			buildPhases = (
 				FF8C665329A5201D007BB908 /* Sources */,
 				FF8C665429A5201D007BB908 /* Frameworks */,
@@ -363,9 +363,9 @@
 			dependencies = (
 				FF8C665929A5201D007BB908 /* PBXTargetDependency */,
 			);
-			name = OnePremiumUITests;
+			name = SpentSmartUITests;
 			productName = OnePremiumUITests;
-			productReference = FF8C665729A5201D007BB908 /* OnePremiumUITests.xctest */;
+			productReference = FF8C665729A5201D007BB908 /* SpentSmartUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -394,7 +394,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF8C663229A52018007BB908 /* Build configuration list for PBXProject "OnePremium" */;
+			buildConfigurationList = FF8C663229A52018007BB908 /* Build configuration list for PBXProject "SpentSmart" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -412,9 +412,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF8C663629A52018007BB908 /* OnePremium */,
-				FF8C664C29A5201D007BB908 /* OnePremiumTests */,
-				FF8C665629A5201D007BB908 /* OnePremiumUITests */,
+				FF8C663629A52018007BB908 /* SpentSmart */,
+				FF8C664C29A5201D007BB908 /* SpentSmartTests */,
+				FF8C665629A5201D007BB908 /* SpentSmartUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -507,12 +507,12 @@
 /* Begin PBXTargetDependency section */
 		FF8C664F29A5201D007BB908 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF8C663629A52018007BB908 /* OnePremium */;
+			target = FF8C663629A52018007BB908 /* SpentSmart */;
 			targetProxy = FF8C664E29A5201D007BB908 /* PBXContainerItemProxy */;
 		};
 		FF8C665929A5201D007BB908 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF8C663629A52018007BB908 /* OnePremium */;
+			target = FF8C663629A52018007BB908 /* SpentSmart */;
 			targetProxy = FF8C665829A5201D007BB908 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -710,7 +710,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePremium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnePremium";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpentSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpentSmart";
 			};
 			name = Debug;
 		};
@@ -730,7 +730,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePremium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnePremium";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpentSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpentSmart";
 			};
 			name = Release;
 		};
@@ -773,7 +773,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF8C663229A52018007BB908 /* Build configuration list for PBXProject "OnePremium" */ = {
+		FF8C663229A52018007BB908 /* Build configuration list for PBXProject "SpentSmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8C665F29A5201D007BB908 /* Debug */,
@@ -782,7 +782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8C666129A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremium" */ = {
+		FF8C666129A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8C666229A5201D007BB908 /* Debug */,
@@ -791,7 +791,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8C666429A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremiumTests" */ = {
+		FF8C666429A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmartTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8C666529A5201D007BB908 /* Debug */,
@@ -800,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8C666729A5201D007BB908 /* Build configuration list for PBXNativeTarget "OnePremiumUITests" */ = {
+		FF8C666729A5201D007BB908 /* Build configuration list for PBXNativeTarget "SpentSmartUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8C666829A5201D007BB908 /* Debug */,
