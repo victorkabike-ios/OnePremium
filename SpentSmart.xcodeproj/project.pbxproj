@@ -203,7 +203,7 @@
 		FF8C662E29A52018007BB908 = {
 			isa = PBXGroup;
 			children = (
-				FF8C663929A52018007BB908 /* OnePremium */,
+				FF8C663929A52018007BB908 /* SpentSmart */,
 				FF8C665029A5201D007BB908 /* OnePremiumTests */,
 				FF8C665A29A5201D007BB908 /* OnePremiumUITests */,
 				FF8C663829A52018007BB908 /* Products */,
@@ -220,7 +220,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF8C663929A52018007BB908 /* OnePremium */ = {
+		FF8C663929A52018007BB908 /* SpentSmart */ = {
 			isa = PBXGroup;
 			children = (
 				FF84DD6A29F3E28F00E43895 /* Subscriptions.json */,
@@ -236,7 +236,7 @@
 				FF8C664529A5201C007BB908 /* OnePremium.xcdatamodeld */,
 				FF8C664029A5201C007BB908 /* Preview Content */,
 			);
-			path = OnePremium;
+			path = SpentSmart;
 			sourceTree = "<group>";
 		};
 		FF8C664029A5201C007BB908 /* Preview Content */ = {
